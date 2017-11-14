@@ -5,7 +5,7 @@ import axios from 'axios';
  * @function axios
  */
 
-axios.get(`https://api.nytimes.com/svc/topstories/v2/home.json?api-key=538d5a0bb971490795914379ca269bc0`)
+axios.get(`https://api.nytimes.com/svc/topstories/v2/home.json?api-key=`)
 .then(res => {
   if (res.status === 200) {
     console.log(`axios：` + res.data.results[0].abstract,)

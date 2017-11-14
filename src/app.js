@@ -5,7 +5,7 @@ import cats from './cats';
 import superagent from './superagent';
 import axios from  './axios_get';
 
-const page = `https://api.nytimes.com/svc/topstories/v2/home.json?api-key=538d5a0bb971490795914379ca269bc0`;
+const page = `https://api.nytimes.com/svc/topstories/v2/home.json?api-key=`;
 
 /**
  * @param {string} page - URL
